@@ -1,0 +1,75 @@
+.app {
+    width: 100vw;
+}
+
+.app>.title {
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    color: red;
+    font-weight: bolder;
+}
+
+.row {
+    margin: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+.label {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    flex-shrink: 1;
+}
+
+.num {
+    color: gray;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    padding: 0 0 0 20px;
+    outline-style: none;
+    border: 1px solid black;
+    flex-shrink: 1;
+
+}
+
+.sum {
+    cursor: pointer;
+    user-select: none;
+}
+
+.comp {
+    margin: 5px 0px;
+    padding: 5px 0;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.comp .title {
+    font-weight: bolder;
+}
+
+.comp1 {
+    background-color: bisque;
+}
+
+.comp2 {
+    background-color: yellow;
+}
+
+.submit {
+    display: block;
+    font-size: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(67, 147, 9);
+    color: #fff;
+    margin: 10px auto;
+    cursor: pointer;
+}
